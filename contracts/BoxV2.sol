@@ -6,8 +6,8 @@ contract BoxV2 {
     uint256 public value;
 
     // Increments the stored value by 1
-    function mulByTwo() public {
-        value*= 2;
+    function incrementVal() public {
+        value++;
     }
 }
 
